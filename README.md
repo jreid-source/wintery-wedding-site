@@ -1,51 +1,29 @@
-# Richard & Lacey Belle · Wedding Microsite
+# Lacey Belle & Richard's Wedding Website
 
-A wedding countdown and celebration site for **Richard Krause & Lacey Belle Benefield**, getting married on **December 5, 2026** at 3:30 PM Central in Spring Hill, Tennessee.
+A single-page wedding website for Lacey Belle Benefield and Richard Krause's December 5, 2026 celebration in Spring Hill, Tennessee.
 
-Now with a wintery/Christmas face-lift to match the season of the wedding: falling snow, a snow-dusted pine tree, and scattered snowflakes throughout.
+## Files
 
-## 🌐 Live Site
+- `index.html` — the complete website, including its styles, scripts, and embedded images
+- `README.md` — project and publishing instructions
 
-> Once deployed, your site will be available at:
-> `https://<your-username>.github.io/<your-repo-name>/`
+## Publish with GitHub Pages
 
-## 📁 Files
+1. Create a new GitHub repository or open the repository that hosts the site.
+2. Upload `index.html` and `README.md` to the repository's top-level directory.
+3. Commit the files to the default branch, usually `main`.
+4. In the repository, open **Settings → Pages**.
+5. Under **Build and deployment**, choose **Deploy from a branch**.
+6. Select the default branch and the `/ (root)` folder, then click **Save**.
 
-| File | Purpose |
-|------|---------|
-| `index.html` | The complete microsite — all CSS, JS, and photos (including the pine tree image) are embedded inline |
-| `README.md` | This file |
+GitHub will display the site's public URL after deployment finishes. Future changes can be published by replacing `index.html` and committing the update.
 
-## 🚀 Deploying to GitHub Pages
+## Local preview
 
-1. Push both files to a GitHub repository
-2. Go to **Settings → Pages**
-3. Under **Source**, select `main` branch and `/ (root)`
-4. Click **Save** — your site will be live in about a minute
+Open `index.html` in a web browser. An internet connection is required to load the Google Fonts used by the design and to open external RSVP, hotel, map, and registry links.
 
-## ❄️ Winter Theme
+## Notes
 
-- **Falling snow** — a soft, continuous snowfall animation drifts across the whole page (pure CSS/JS, no external libraries or images needed).
-- **Pine tree** — your uploaded snow-dusted pine tree illustration sits in the hero corner, embedded directly in the HTML.
-- **Snowflakes** — a detailed, hand-built six-armed snowflake (matching the style of your RSVP card art) is scattered throughout every section's white space, plus used as the divider under each section title.
-- All of it is static markup/CSS — nothing depends on external images or fonts beyond the two Google Fonts already in use, so the site stays a single self-contained file.
-- If you ever want more/fewer snowflakes, larger/smaller ones, or want the falling snow toned down, just ask and I can regenerate the file.
-
-## ✏️ Things to Update When Ready
-
-- **Venue name** — search for `Details to follow` and replace with the actual venue
-- **Hotel blocks** — replace the two `href="#"` placeholder links with real booking URLs
-- **Registry links** — replace the sample Amazon and Target URLs with the real registry links
-- **Wedding hashtag** — add anywhere in the site you'd like
-- **RSVP** — a dedicated RSVP section (with nav tab) linking to your Google Form is now live; update the link in `index.html` if you ever generate a new form
-
-## 🎨 Wedding Colors
-
-| Color | Hex | Source |
-|-------|-----|--------|
-| Juniper | `#2D5C45` | David's Bridal |
-| Dusty Sage | `#8FA98A` | David's Bridal |
-
----
-
-*Made with ♥ for Richard & Lacey Belle · December 5, 2026*
+- No build process or package installation is required.
+- The site is responsive and includes a mobile navigation menu.
+- The main visual assets are embedded directly in `index.html`, so they do not need to be uploaded separately.
